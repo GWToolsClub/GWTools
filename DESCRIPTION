@@ -1,0 +1,39 @@
+Package: GWTools
+Title: A Collection of Methods and Tools for Geographically Weighted
+        Regression Extensions
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+      person(given = "Yi-Ju",
+              family = "Chen", 
+              email = "gwtoolsclub@gmail.com", 
+              role = c("aut", "cre")),
+      person(given = "Chieh-Lin", 
+              family = "Chang", 
+              role = "aut"),
+      person(given = "Guan-Ting", 
+              family = "Zheng", 
+              role = "ctb")
+      )
+Description: Provides a unified implementation of several geographically weighted regression
+    models, including extensions such as GWGLM, GWQR, GWOLR, GWMMR and TSGWML. The package supports
+    bandwidth selection via CV or AICc, parallel computing, and diagnostic tools 
+    such as Monte Carlo and bootstrap-based spatial variability tests.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: parallel, stringr, progress, MASS, maxLik, quantreg, Matrix,
+        matlib, stats
+Suggests: knitr, rmarkdown, spData
+Depends: R (>= 3.5.0)
+LazyData: true
+VignetteBuilder: knitr
+Keywords: spatial, geographically weighted regression, GWGLM, GWQR,
+        GWOLR, GWMMR, TSGWML
+NeedsCompilation: no
+Packaged: 2025-08-01 08:57:45 UTC; jlin
+Author: Yi-Ju Chen [aut, cre],
+  Chieh-Lin Chang [aut],
+  Guan-Ting Zheng [ctb]
+Maintainer: Yi-Ju Chen <gwtoolsclub@gmail.com>
